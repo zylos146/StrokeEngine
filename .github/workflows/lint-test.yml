@@ -13,4 +13,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
     - name: Run Linting
-      run: platformio check
+      run: platformio check -v
