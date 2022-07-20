@@ -13,4 +13,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
     - name: Run Linting
-      run: platformio check -v
+      run: platformio check --fail-on-defect=low --fail-on-defect=medium --fail-on-defect=high
